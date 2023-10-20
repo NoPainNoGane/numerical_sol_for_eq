@@ -13,9 +13,9 @@ Bringing the system to a dimensionless form
 
 ```math
 U(x) = 10 ^-18*cos(x^2), m = 9.1 10^-31, x_0 = 0, v_0 = 5 10^5;
-So we have system in dimensionless form:
-dx/dt = -v,           x(0) = 0
-dv/dt = 3x^2 + 2x,    v(0) = -2 * \sqrt(9.1) / 100
+
+dx/dt = -v,           x(0) = 0,
+dv/dt = 3x^2 + 2x,    v(0) = -2 * \sqrt(9.1) / 100.
 ```
 Graphs (x(t)) constructed using the Euler method, with increased accuracy, with different steps and Maple:
 
